@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sniadach.szymon.projektszkola.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="1">
+
+                <Button
+                    android:layout_height="81dp"
+                    android:id="@+id/button"
+                    android:background="@drawable/ikona5"
+                    android:layout_width="83dp" />
+
+                <Button
+                    android:layout_width="84dp"
+                    android:layout_height="86dp"
+                    android:id="@+id/button2"
+                    android:background="@drawable/ikona6" />
+
+                <Button
+                    android:layout_width="91dp"
+                    android:layout_height="88dp"
+                    android:id="@+id/button3"
+                    android:background="@drawable/ikona1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="94dp"
+                    android:id="@+id/button4"
+                    android:background="@drawable/ikona3" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
