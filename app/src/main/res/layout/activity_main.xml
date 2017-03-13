@@ -18,14 +18,15 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:weightSum="1">
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:weightSum="1">
+                android:layout_height="86dp"
+                android:weightSum="1"
+                android:layout_weight="0.04">
 
                 <Button
                     android:layout_height="81dp"
@@ -51,6 +52,19 @@
                     android:id="@+id/button4"
                     android:background="@drawable/ikona3" />
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="58dp">
+
+                <Button
+                    android:text="aparat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aparat"
+                    android:layout_weight="1" />
             </LinearLayout>
 
         </LinearLayout>
